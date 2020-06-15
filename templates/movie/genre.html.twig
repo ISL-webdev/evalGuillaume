@@ -1,6 +1,6 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}The Movie Storehouse - All{% endblock %}
+{% block title %}The Movie Storehouse - Genre{% endblock %}
 
 {% block body %}
     <div class="container">
@@ -10,7 +10,7 @@
             <h2>All Movies</h2>
             <ul>
                 {% for movie in movie %}
-                    <li>{{ movie.title }}</li>
+                    <li>{{ movie.genre }}</li>
                 {% endfor %}
             </ul>
         </div>
