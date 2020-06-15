@@ -8,7 +8,7 @@ use Symfony\Component\Routing\Annotation\Route;
 class MovieController extends AbstractController
 {
     /**
-     * @Route("/movie", name="movie")
+     * @Route("/", name="")
      */
     public function index()
     {
